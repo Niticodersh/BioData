@@ -149,6 +149,23 @@
             background: #a40000;
             transform: scale(1.05);
         }
+        /* Only adjust spacing for this section */
+.sub-content.custom-spacing p,
+.sub-content.custom-spacing h4,
+.sub-content.custom-spacing .education-detail {
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Adjust only the spacing between paragraphs within this section */
+.sub-content.custom-spacing .education-detail p {
+    margin-bottom: 5px; /* Fine-tune this value for slight spacing */
+}
+
+/* Optional: Reduce or adjust spacing for the headings */
+.sub-content.custom-spacing h4 {
+    margin-top: 10px;  /* Adjust as necessary */
+}
 
     </style>
 
@@ -219,7 +236,7 @@
 
             <p><strong>Brother’s Name:</strong> Nitish Bhardwaj</p>
 
-            <div class="sub-content">
+            <div class="sub-content custom-spacing">
                 <h4>Schooling</h4>
                 <div class="education-detail">
                     <p><strong>School:</strong> Mother Teresa Mission Higher Secondary School, Kidwai Nagar, Kanpur</p>
@@ -229,13 +246,13 @@
                     <p><strong>School:</strong> Brain International School, Vikaspuri, New Delhi</p>
                     <p><strong>Class 12:</strong> 95.8%</p>
                 </div>
-           
+            
                 <h4>Higher Education</h4>
                 <div class="education-detail">
                     <p><strong>College:</strong> B.Tech (AI & Data Science), IIT Jodhpur</p>
                     <p><strong>Graduating Year:</strong> 2025</p>
                 </div>
-          
+            
                 <h4>Placement</h4>
                 <div class="education-detail">
                     <p><strong>Position:</strong> Data Scientist</p>
